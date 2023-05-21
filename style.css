@@ -1,0 +1,203 @@
+
+#frame {
+	background: transparent;
+}
+
+#frame notebook {
+	border: none;
+	margin-top: 0;
+}
+
+#frame header {
+	border: none;
+	background: rgba(51, 51, 51, 0.7);
+	min-height: 34px;
+	padding: 0;
+	border-radius: 9px 9px 0 0;
+}
+
+#frame #focused header {
+	background: rgba(34, 34, 34, 0.7);
+}
+
+#frame tabs {
+	padding: 0;
+}
+
+#frame arrow {
+	color: #DDD;
+	background: rgba(51, 51, 51, 0.7);
+	box-shadow: none;
+	border-left: none;
+	border-right: none;
+	border: none;
+	margin: 0;
+	border-radius: 0 9px 0 0;
+	transition: background 0;
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+}
+
+#frame #focused arrow {
+	background: rgba(34, 34, 34, 0.7);
+}
+
+#frame arrow.down {
+	margin-right: -1px;
+	border-radius: 9px 0 0 0;
+}
+
+#frame arrow:disabled {
+	color: #333;
+}
+
+#frame #focused arrow:disabled {
+	color: #222;
+}
+
+#frame arrow:hover {
+	text-shadow: none;
+	-gtk-icon-shadow: none;
+	-gtk-icon-effect: none;
+}
+
+#frame tab {
+	background-color: transparent;
+	background-image: linear-gradient(to right, rgba(221, 221, 221, 1), rgba(221, 221, 221, 1));
+	background-size: 1px 17px;
+	background-position: 9px 9px;
+	background-repeat: no-repeat;
+	box-shadow: none;
+	outline-width: 0;
+	transition: background-color 0s;
+	min-height: 34px;
+	border: none;
+	padding: 0;
+	margin-top: 1px;
+	margin-bottom: 2px;
+	margin-left: -9px;
+	margin-right: -10px;
+	min-width: 258px;
+}
+
+#frame box {
+	background: rgba(255, 255, 255, 1);
+	padding: 0;
+	padding-left: 15px;
+	border-radius: 7px;
+}
+
+#frame #inner {
+	padding-left: 0;
+	background: transparent;
+	margin-right: 10px;
+	border-radius: 0;
+}
+
+#icon {
+	margin-left: 6px;
+	margin-right: 9px;
+	opacity: 1;
+}
+
+#frame tab #icon {
+	opacity: 0.75;
+}
+
+#frame tab:checked #icon {
+	opacity: 1;
+}
+
+#frame tab > widget > box {
+	background-color: transparent;
+}
+
+#frame tab > #hover > box {
+	background-image:
+		radial-gradient(circle at 0 0, rgba(68, 68, 68, 0) 8px, rgba(68, 68, 68, 0.7) 2px),
+		radial-gradient(circle at 100% 100%, rgba(68, 68, 68, 0.7) 8px, rgba(68, 68, 68, 0) 2px),
+		radial-gradient(circle at 0 100%, rgba(68, 68, 68, 0.7) 8px, rgba(68, 68, 68, 0) 2px),
+		radial-gradient(circle at 100% 0, rgba(68, 68, 68, 0) 8px, rgba(68, 68, 68, 0.7) 2px),
+		linear-gradient(to right, rgba(68, 68, 68, 0.7), rgba(68, 68, 68, 0.7)),
+		linear-gradient(to right, rgba(68, 68, 68, 0.7), rgba(68, 68, 68, 0.7));
+	background-size: 9px 9px, 9px 9px, 9px 9px, 9px 9px, calc(100% - 18px) 25px, calc(100% - 36px) 9px;
+	background-position: 1px 26px, 9px 0, calc(100% - 9px) top, calc(100% - 1px) 26px, 9px 9px, 18px 0;
+	background-repeat: no-repeat;
+}
+
+#frame tab:checked > widget > box, #frame tab:checked > #hover > box {
+	background-image:
+		radial-gradient(circle at 0 0, rgba(255, 255, 255, 0) 8px, rgba(255, 255, 255, 1) 2px),
+		radial-gradient(circle at 100% 100%, rgba(255, 255, 255, 1) 8px, rgba(255, 255, 255, 0) 2px),
+		radial-gradient(circle at 0 100%, rgba(255, 255, 255, 1) 8px, rgba(255, 255, 255, 0) 2px),
+		radial-gradient(circle at 100% 0, rgba(255, 255, 255, 0) 8px, rgba(255, 255, 255, 1) 2px),
+		linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)),
+		linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+	background-size: 9px 9px, 9px 9px, 9px 9px, 9px 9px, calc(100% - 18px) 25px, calc(100% - 36px) 9px;
+	background-position: 1px 26px, 9px 0, calc(100% - 9px) top, calc(100% - 1px) 26px, 9px 9px, 18px 0;
+	background-repeat: no-repeat;
+}
+
+#frame label {
+	color: #333;
+	font: 17px "Google Sans";
+	margin-right: -20px;
+}
+
+#frame tab label {
+	color: #DDD;
+}
+
+#frame tab:checked label {
+	color: #333;
+}
+
+#frame #inner > box {
+	background: transparent;
+}
+
+button {
+	background-image: url("img/x_dark.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	-gtk-icon-shadow: none;
+	text-shadow: none;
+	transition: background 0s;
+	outline: none;
+}
+
+#frame tab button, #frame tab:checked {
+	background-image: url("img/x_light.png");
+}
+
+#frame tab:checked button {
+	background-image: url("img/x_dark.png");
+}
+
+#frame button:hover {
+	background-image: url("img/x_dark_hover.png");
+}
+
+#frame tab button:hover {
+	background-image: url("img/x_light_hover.png");
+}
+
+#frame tab:checked button:hover {
+	background-image: url("img/x_dark_hover.png");
+}
+
+#frame button:hover {
+	-gtk-icon-effect: none;
+}
+
+#frame stack {
+	background: transparent;
+}
+
+#frame stack > box {
+	background: transparent;
+	border-radius: 0;
+}

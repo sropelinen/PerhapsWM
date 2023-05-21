@@ -1,0 +1,32 @@
+#{0},|tab>widget>#{0},#{0} #inner,|tab>#hover>#{0},|tab:checked>widget>#{0},tab:checked>#hover>#{0},|#{0} label,|tab #{0} label,|tab:checked #{0} label,|#{0} button,|tab #{0} button,|tab:checked #{0} button,|#{0} button:hover,|tab #{0} button:hover,|tab:checked #{0} button:hover,|
+{{background:rgb({2})}}
+{{background:transparent}}
+{{background-image:
+    radial-gradient(circle at 0 0, rgba(68, 68, 68, 0) 8px, #444 2px),
+    radial-gradient(circle at 100% 100%, #444 8px, rgba(68, 68, 68, 0) 2px),
+    radial-gradient(circle at 0 100%, #444 8px, rgba(68, 68, 68, 0) 2px),
+    radial-gradient(circle at 100% 0, rgba(68, 68, 68, 0) 8px, #444 2px),
+    linear-gradient(to right, #444, #444),
+    linear-gradient(to right, #444, #444);
+background-size: 9px 9px, 9px 9px, 9px 9px, 9px 9px, calc(100% - 18px) 25px, calc(100% - 36px) 9px;
+background-position: 1px 26px, 9px 0, calc(100% - 9px) top, calc(100% - 1px) 26px, 9px 9px, 18px 0;
+background-repeat: no-repeat;}}
+{{background-image:
+    radial-gradient(circle at 0 0,rgba({2},0) 8px,rgb({2}) 2px),
+    radial-gradient(circle at 100% 100%,rgb({2}) 8px,rgba({2},0) 2px),
+    radial-gradient(circle at 0 100%,rgb({2}) 8px,rgba({2},0) 2px),
+    radial-gradient(circle at 100% 0,rgba({2},0) 8px,rgb({2}) 2px),
+    linear-gradient(to right,rgb({2}),rgb({2})),
+    linear-gradient(to right,rgb({2}),rgb({2}));
+background-size:9px 9px,9px 9px,9px 9px,9px 9px,calc(100%-18px) 25px,calc(100%-36px) 9px;
+background-position:1px 26px,9px 0,calc(100%-9px) top,calc(100%-1px) 26px,9px 9px,18px 0;
+background-repeat:no-repeat}}
+{{color:{0}}}
+{{color:#DDD}}
+{{color:{0}}}
+{{background-image:url("/home/santeri/projects/wm/img/x_{1}.png")}}
+{{background-image:url("/home/santeri/projects/wm/img/x_light.png")}}
+{{background-image:url("/home/santeri/projects/wm/img/x_{1}.png")}}
+{{background-image:url("/home/santeri/projects/wm/img/x_{1}_hover.png")}}
+{{background-image:url("/home/santeri/projects/wm/img/x_light_hover.png")}}
+{{background-image:url("/home/santeri/projects/wm/img/x_{1}_hover.png")}}
