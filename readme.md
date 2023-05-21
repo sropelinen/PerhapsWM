@@ -18,5 +18,5 @@ Didn't bother to debug so highly likely to crash.
     - Tabs can have colors based on program
  - Rounded corners
 
-![](https://github.com/sropelinen/perhapswm/tabs.gif)
-![](https://github.com/sropelinen/perhapswm/wm.gif)
+![](https://github.com/sropelinen/PerhapsWM/blob/main/tabs.gif)
+![](https://github.com/sropelinen/PerhapsWM/blob/main/wm.gif)
